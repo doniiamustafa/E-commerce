@@ -39,7 +39,7 @@ class WelcomeScreen extends StatelessWidget{
             SizedBox(height: 25.0),
 
             defaultButton('Login', function: (){ navigateTo(context: context , route: LoginScreen());}),
-
+            SizedBox(height: 5.0),
 
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 35.0),
